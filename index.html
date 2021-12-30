@@ -3,32 +3,51 @@
 <head>
   <meta charset="UTF-8">
     <title>Dinara's personal website</title>
-</head>
-<style>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    </head>
+<!--<style>
 table, th, td {
   border:1px solid blue;
 }
-</style>
+body {
+  background-color: #ADD8E6;
+}
+p {
+  font-family: georgia;
+  font-size: 20px;
+}
+hr {
+  border-style: dotted;
+  background-color: white;
+  height: 2px;
+}
+</style> -->
 <body>
 <img src="photo.jpg" alt="" width="220" height="250">
-<h1>Dinara Yelesh</h1>
+  <h1>Dinara Yelesh</h1>
 <p><em>I'm a student of AITU</em></p>
 <p>I'm from Aktobe, 17 y.o.</p>
 <p>I like reading</p>
 <hr>
 <h3><a href= "a"> My favorite books </a></h3>
+<body style="margin:0;">
+  <div class style="background-color:pink;width:300px;height:60px;">
 <ul type="square">
 <li>Flowers for Algernon</li>
 <li>Chicken Soup for the Soul</li>
 <li>The Notebook</li>
 </ul>
+</div>
 <h3>Hobbies</h3>
+<div class style="background-color:pink;width:300px;height:70px;">
 <ol>
   <li>Dancing</li>
   <li>Drawing</li>
   <li>Walking with friends</li>
   <li>Watching films</li>
 </ol>
+</div>
 <h4>Favorite film</h4>
 <table>
   <tr>
@@ -53,7 +72,7 @@ table, th, td {
 </tr>
 </table>
 <form action="handler.php">
-  <p><strong>Did you go to the new part of Spider-Man</strong></p>
+  <p><strong>Did you go to the new part of Spider-Man?</strong></p>
   <p><input type="radio" name="answer" value="a1">Yes<Br>
   <input type="radio" name="answer" value="a2">No<Br>
   <p><input type="submit"></p>
